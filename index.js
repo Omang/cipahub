@@ -15,7 +15,7 @@ app.use(body_parser.json());
 app.use(cors({
  
  credentials: true,
- origin: "https://waterhack.onrender.com"
+ origin: "http://localhost:3000"
 
 }));
 
